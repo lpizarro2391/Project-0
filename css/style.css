@@ -3,10 +3,47 @@
 
 }
 .container{
-  background-attachment: fixed;
+  background-attachment:scroll;
   background-image:url(../img/tec.jpg);
-  background-size:cover;
-    background-repeat:  no-repeat;
-    background-position: 0 100px;
-    opacity: 0.9;
+  background-size:contain;
+  background-repeat:  no-repeat;
+  background-position: 0 120px;
 }
+p::selection {
+     color: #983c3c;
+     background-color: yellow;
+ }
+ a::before {
+       content: "\21d2 Click here: ";
+       font-weight: bold;
+       color: #983c3c;
+       background-color: grey;
+   }
+   #link:hover{
+     background-color: #983c3c;
+
+   }
+   #title:hover{
+     background-color: #983c3c;
+   }
+
+    h1, h2 {
+          color: gray;
+      }
+#title{
+  color: white;
+  background-color: gray;
+  border-radius: 5px;
+}
+
+@media (min-width: 500px) {
+  body {
+      background-color:  #983c3c;
+  }
+  }
+  @media (max-width: 499px) {
+  body {
+      background-color:  #57ae1b;
+  }
+
+  }

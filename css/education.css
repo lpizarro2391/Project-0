@@ -1,0 +1,16 @@
+.container {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+
+  @media (min-width: 500px) {
+   body {
+       background-color: #983c3c;
+   }
+   }
+   @media (max-width: 499px) {
+   body {
+       background-color: #57ae1b;
+   }
+   }
