@@ -2,7 +2,11 @@
   background-color: #A3564E;
 
 }
-
-img:hover {
-  opacity: 1.0;
+.container{
+  background-attachment: fixed;
+  background-image:url(../img/tec.jpg);
+  background-size:cover;
+    background-repeat:  no-repeat;
+    background-position: 0 100px;
+    opacity: 0.9;
 }
