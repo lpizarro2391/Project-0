@@ -1,0 +1,214 @@
+*{
+  margin: 0;
+}
+body{
+   background: #02010a;
+}
+@media screen and (min-width: 900px){
+.wrapper {
+  	 	width: 80%;
+      margin-top: 0.2%;
+      margin-right: 0%;
+      margin-bottom: 0%;
+      margin-left: 10%;
+  	 }
+
+    header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 1em 0 1em 0;
+     }
+#title{
+  float: center;
+      align-items: center;
+      text-align: center;
+      font-size: 100px;
+      background-color: inherit;
+      color: white;
+}
+#title h1{
+ text-shadow: 2px 2px 2px #02010a;
+}
+  section{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: #d5c75f ;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+  .cl1{
+    text-align: center;
+       margin: auto;
+       padding: 3%;
+     	width: 20%;
+       order: 1;
+       flex-grow: 1;
+     	}
+
+  .cl1 img{
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  }
+  .cl2{
+    text-align: center;
+       margin: auto;
+       padding: 3%;
+     	width: 20%;
+       order: 2;
+       flex-grow: 1;
+     	}
+  .cl2 img{
+  width: 100%;
+
+  align-items: center;
+  }
+  .cl3{
+    text-align: center;
+       margin: auto;
+       padding: 3%;
+      width: 20%;
+       order: 3;
+       flex-grow: 1;
+      }
+  .cl3 img{
+  width: 100%;
+
+  align-items: center;
+  }
+  .cl4{
+    text-align: center;
+       margin: auto;
+       padding: 3%;
+      width: 30%;
+       order: 4;
+       flex-grow: 1;
+      }
+  .cl4 img{
+  width: 100%;
+
+  align-items: center;
+  }
+  .cl5{
+    text-align: center;
+       margin: auto;
+       padding: 3%;
+     	width: 30%;
+       order: 5;
+       flex-grow: 1;
+     	}
+  .cl5 img{
+  width: 100%;
+
+  align-items: center;
+  }
+}
+@media screen and (max-width: 899px){
+.wrapper {
+  	 	width: 100%;
+      margin-top: 0.2%;
+      margin-right: 0%;
+      margin-bottom: 0%;
+      margin-left: 10%;
+  	 }
+
+    header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 1em 0 1em 0;
+     }
+#title{
+  float: center;
+      align-items: center;
+      text-align: center;
+      font-size: 100px;
+      background-color: inherit;
+      color: white;
+}
+#title h1{
+ text-shadow: 2px 2px 2px #02010a;
+}
+  section{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: #d5c75f ;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+  .cl1{
+    text-align: center;
+       margin: auto;
+       padding: 3%;
+     	width: 100%;
+       order: 1;
+       flex-grow: 1;
+     	}
+
+  .cl1 img{
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  }
+  .cl2{
+    text-align: center;
+       margin: auto;
+       padding: 3%;
+     	width: 100%;
+       order: 2;
+       flex-grow: 1;
+     	}
+  .cl2 img{
+  width: 100%;
+
+  align-items: center;
+  }
+  .cl3{
+    text-align: center;
+       margin: auto;
+       padding: 3%;
+      width: 100%;
+       order: 3;
+       flex-grow: 1;
+      }
+  .cl3 img{
+  width: 100%;
+
+  align-items: center;
+  }
+  .cl4{
+    text-align: center;
+       margin: auto;
+       padding: 3%;
+      width: 100%;
+       order: 4;
+       flex-grow: 1;
+      }
+  .cl4 img{
+  width: 100%;
+
+  align-items: center;
+  }
+  .cl5{
+    text-align: center;
+       margin: auto;
+       padding: 3%;
+     	width: 100%;
+       order: 5;
+       flex-grow: 1;
+     	}
+  .cl5 img{
+  width: 100%;
+
+  align-items: center;
+  }
+}

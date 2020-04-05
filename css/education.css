@@ -1,14 +1,74 @@
-.container {
+
+  .grid {
+
       display: flex;
-      flex-wrap: wrap;
+      align-items: center;
+      flex-flow: column;
   }
 
+  #title:hover{
+    background-color: #983c3c;
+  }
+  #title{
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+  }
+  #link:hover{
+    background-color: #983c3c;
+
+  }
+  a::before {
+        content: "\21d2 Click here: ";
+        font-weight: bold;
+        color: white;
+        background-color: grey;
+    }
+  table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 30px;
+
+  }
+
+ th {
+    border:1px solid black;
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+  }
+  td {
+     border:1px solid black;
+     padding: 5px;
+     text-align: center;
+     background-color: gray;
+     color: white;
+
+   }
+   header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 1em 0 1em 0;
+    }
+
+    a#link{
+      color: black;
+      text-decoration: underline;
+      font-weight: bold;
+    }
 
   @media (min-width: 500px) {
    body {
        background-color: #983c3c;
+
    }
+
    }
+
    @media (max-width: 499px) {
    body {
        background-color: #57ae1b;
