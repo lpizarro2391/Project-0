@@ -18,12 +18,15 @@
     background-color: #983c3c;
 
   }
-  a::before {
-        content: "\21d2 Click here: ";
-        font-weight: bold;
-        color: white;
-        background-color: grey;
+  .menu{
+    float: center;
+    text-align: center;
+  }
+   #menu-principal a {
+   font-size: 18px;
+   padding-left: 1em;
     }
+
   table {
     border: 2px solid black;
     border-collapse: collapse;
@@ -56,14 +59,14 @@
     }
 
     a#link{
-      color: black;
+      color: white;
       text-decoration: underline;
       font-weight: bold;
     }
 
   @media (min-width: 500px) {
    body {
-       background-color: #983c3c;
+       background-color: black;
 
    }
 

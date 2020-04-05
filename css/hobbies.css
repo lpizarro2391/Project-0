@@ -4,7 +4,9 @@
 body{
    background: #02010a;
 }
-@media screen and (min-width: 900px){
+
+
+@media (min-width: 500px){
 .wrapper {
   	 	width: 80%;
       margin-top: 0.2%;
@@ -30,6 +32,14 @@ body{
 #title h1{
  text-shadow: 2px 2px 2px #02010a;
 }
+.menu{
+  float: center;
+  text-align: center;
+}
+ #menu-principal a {
+ font-size: 18px;
+ padding-left: 1em;
+  }
   section{
   display: flex;
   flex-flow: row wrap;
@@ -108,15 +118,17 @@ body{
   align-items: center;
   }
 }
-@media screen and (max-width: 899px){
+
+
+@media (max-width: 499px){
+
 .wrapper {
-  	 	width: 100%;
+  	 	width: 95%;
       margin-top: 0.2%;
       margin-right: 0%;
       margin-bottom: 0%;
       margin-left: 10%;
   	 }
-
     header{
     display: flex;
     flex-flow: row wrap;
@@ -124,7 +136,7 @@ body{
     padding: 1em 0 1em 0;
      }
 #title{
-  float: center;
+    float: center;
       align-items: center;
       text-align: center;
       font-size: 100px;
@@ -134,9 +146,17 @@ body{
 #title h1{
  text-shadow: 2px 2px 2px #02010a;
 }
+.menu{
+  float: center;
+  text-align: center;
+}
+ #menu-principal a {
+ font-size: 18px;
+ padding-left: 1em;
+  }
   section{
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column;
   justify-content: space-around;
   background-color: #d5c75f ;
   padding-top: 3%;
@@ -150,12 +170,10 @@ body{
        margin: auto;
        padding: 3%;
      	width: 100%;
-       order: 1;
-       flex-grow: 1;
      	}
 
   .cl1 img{
-  width: 100%;
+  width: 80%;
   margin: auto;
   align-items: center;
   }
@@ -164,11 +182,10 @@ body{
        margin: auto;
        padding: 3%;
      	width: 100%;
-       order: 2;
-       flex-grow: 1;
+
      	}
   .cl2 img{
-  width: 100%;
+  width: 80%;
 
   align-items: center;
   }
@@ -177,11 +194,10 @@ body{
        margin: auto;
        padding: 3%;
       width: 100%;
-       order: 3;
-       flex-grow: 1;
+
       }
   .cl3 img{
-  width: 100%;
+  width: 80%;
 
   align-items: center;
   }
@@ -190,11 +206,10 @@ body{
        margin: auto;
        padding: 3%;
       width: 100%;
-       order: 4;
-       flex-grow: 1;
+
       }
   .cl4 img{
-  width: 100%;
+  width: 80%;
 
   align-items: center;
   }
@@ -203,12 +218,10 @@ body{
        margin: auto;
        padding: 3%;
      	width: 100%;
-       order: 5;
-       flex-grow: 1;
+
      	}
   .cl5 img{
-  width: 100%;
-
+  width: 80%;
   align-items: center;
   }
 }

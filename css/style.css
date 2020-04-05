@@ -1,5 +1,5 @@
 .container{
-  background-color: #A3564E;
+  background-color: black;
 
 }
 .container{
@@ -7,22 +7,19 @@
   background-image:url(../img/tec.jpg);
   background-size:contain;
   background-repeat:  no-repeat;
-  background-position: 0 120px;
+background-position: center;
 }
 p::selection {
      color: #983c3c;
      background-color: yellow;
  }
- a::before {
-       content: "\21d2 Click here: ";
-       font-weight: bold;
-       color: #983c3c;
-       background-color: grey;
-   }
-   #link:hover{
-     background-color: #983c3c;
 
-   }
+ a#link{
+   color: black;
+   text-decoration: underline;
+   font-weight: bold;
+
+ }
    #title:hover{
      background-color: #983c3c;
    }
@@ -30,20 +27,47 @@ p::selection {
     h1, h2 {
           color: gray;
       }
+
 #title{
   color: white;
   background-color: gray;
   border-radius: 5px;
 }
 
+
 @media (min-width: 500px) {
   body {
-      background-color:  #983c3c;
+      background-color:  black;
   }
+  .menu{
+    float: right;
+    text-align: center;
+  }
+   #menu-principal a {
+   font-size: 18px;
+   padding-left: 1em;
+    }
+    p{
+      background-color: grey;
+      color: white;
+    }
+
   }
   @media (max-width: 499px) {
   body {
       background-color:  #57ae1b;
   }
+  .menu{
+    float: center;
+    text-align: center;
+  }
+   #menu-principal a {
+   font-size: 18px;
+   padding-left: 1em;
+    }
+    p{
+      background-color: black;
+      color: white;
+    }
 
   }
