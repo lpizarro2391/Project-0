@@ -73,7 +73,11 @@
     input[type=text] {
     background-color: green;
 }
-
+%message {
+     font-family: sans-serif;
+     font-size: 18px;
+     font-weight: bold;
+ }
 
   @media (min-width: 500px) {
    body {

@@ -20,6 +20,14 @@ div {
         color: green;
     }
 }
+%small-uppercase{
+  color: lightslategrey;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+
 @media (min-width: 500px){
 .wrapper {
   	 	width: 80%;
