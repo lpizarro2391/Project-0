@@ -1,11 +1,19 @@
 
-  .grid {
-
-      display: flex;
+  .container {
+      display:grid;
       align-items: center;
-      flex-flow: column;
+      flex-flow:wrap;
   }
-
+.tb{
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+.morest{
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
   #title:hover{
     background-color: #983c3c;
   }
@@ -14,10 +22,13 @@
     background-color: gray;
     border-radius: 5px;
   }
-  #link:hover{
-    background-color: #983c3c;
-
+  h2{
+    text-align: center;
   }
+
+  button:hover {
+    background-color: orange;
+}
   .menu{
     float: center;
     text-align: center;
@@ -50,23 +61,18 @@
      color: white;
 
    }
-   header{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    padding: 1em 0 1em 0;
-    }
+
 
     a#link{
-      color: white;
-      text-decoration: underline;
+      color: black;
       font-weight: bold;
     }
-
+    h2:first-child{
+      text-decoration: underline;
+    }
   @media (min-width: 500px) {
    body {
-       background-color: black;
+       background-color: grey;
 
    }
 
@@ -75,5 +81,8 @@
    @media (max-width: 499px) {
    body {
        background-color: #57ae1b;
+   }
+   .container{
+     width: 100%:
    }
    }

@@ -7,22 +7,22 @@
       <title>Education</title>
     </head>
     <body>
-      <div >
-        <div class="grid">
-          <div class="header">
-                <h2 id="title">Educación</h2>
-          </div>
 
+        <div class="container">
+          <div class="header">
+                <h2 id="title">Education</h2>
+          </div>
           <tr>
             <div class="menu" >
               <navbar id="menu-principal">
-                <a  id="link"href="../index.html">Home</a>
-                <a   id="link"href="#">Education</a>
-                <a   id="link"href="../html/Hobbies.html">Hobbies</a>
-                <a  id="link" href="../html/Family.html">Family</a>
+                <button><a  id="link"href="../index.html">Home</a></button>
+                <button><a   id="link"href="#">Education</a></button>
+                <button><a   id="link"href="../html/Hobbies.html">Hobbies</a></button>
+                <button><a  id="link" href="../html/Family.html">Family</a></button>
               </div>
           </tr>
-          <div class="grid">
+
+          <div class="tb">
             <table>
               <thead >
                 <tr>
@@ -70,8 +70,55 @@
              </tr>
            </table>
           </div>
+          <form class="morest">
+                    <fieldset>
+                      <h1>Add Study</h1>
+                      <p>
+                      	<label for="year ">Year</label>
+                        <br>
+                        <select>
+                          <option>1999</option>
+                          <option>2000</option>
+                          <option>2001</option>
+                          <option>2002</option>
+                          <option>2003</option>
+                          <option>2004</option>
+                          <option>2005</option>
+                          <option>2006</option>
+                          <option>2007</option>
+                          <option>2008</option>
+                          <option>2009</option>
+                          <option>2010</option>
+                          <option>2011</option>
+                          <option>2012</option>
+                          <option>2013</option>
+                          <option>2014</option>
+                          <option>2015</option>
+                          <option>2016</option>
+                          <option>2017</option>
+                          <option>2018</option>
+                        </select>
+                        </p>
+                      <p>
+                  			<label for="institución ">Institution</label>
 
+                  			<input type="text" name="institución" placeholder="Ej: Institution" required>
+                  		</p>
+                      <p>
+                        <label for="Título">Title Reached</label>
+                        <input type="text" name="Título" placeholder="Indicate the title obtained" required>
+                      </p>
+                      <p>
+                        <label for="place">Place</label>
+                        <br>
+                        <textarea name="Comentarios" rows="8" cols="80"></textarea>
+                      </p>
+                      <p>
+                        <input type="submit" name="registrar">
+                      </p>
+                    </fieldset>
+          </form
         </div>
-      </div>
+
     </body>
 </html>

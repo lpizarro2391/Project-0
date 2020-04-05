@@ -5,7 +5,12 @@ body{
    background: #02010a;
 }
 
-
+h1, h4{
+  color: white;
+}
+h1{
+  font-size: 80px;
+}
 @media (min-width: 500px){
 .wrapper {
   	 	width: 80%;
@@ -29,9 +34,7 @@ body{
       background-color: inherit;
       color: white;
 }
-#title h1{
- text-shadow: 2px 2px 2px #02010a;
-}
+
 .menu{
   float: center;
   text-align: center;
@@ -143,9 +146,7 @@ body{
       background-color: inherit;
       color: white;
 }
-#title h1{
- text-shadow: 2px 2px 2px #02010a;
-}
+
 .menu{
   float: center;
   text-align: center;
