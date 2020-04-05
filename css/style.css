@@ -34,7 +34,15 @@ p::selection {
             background-color: red;
         }
 
-
+        div {
+            font-size: 18px;
+            p {
+                color: blue;
+            }
+            ul {
+                color: green;
+            }
+        }
 #title{
   color: white;
   background-color: gray;

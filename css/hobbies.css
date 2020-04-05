@@ -11,6 +11,15 @@ h1, h4{
 h1{
   font-size: 80px;
 }
+div {
+    font-size: 30px;
+    p {
+        color: blue;
+    }
+    h3 {
+        color: green;
+    }
+}
 @media (min-width: 500px){
 .wrapper {
   	 	width: 80%;
@@ -59,7 +68,7 @@ h1{
        margin: auto;
        padding: 3%;
      	width: 20%;
-       order: 1;
+       order: 4;
        flex-grow: 1;
      	}
 
@@ -73,7 +82,7 @@ h1{
        margin: auto;
        padding: 3%;
      	width: 20%;
-       order: 2;
+       order: 4;
        flex-grow: 1;
      	}
   .cl2 img{
@@ -98,8 +107,8 @@ h1{
     text-align: center;
        margin: auto;
        padding: 3%;
-      width: 30%;
-       order: 4;
+      width: 20%;
+       order: 5;
        flex-grow: 1;
       }
   .cl4 img{
@@ -111,10 +120,19 @@ h1{
     text-align: center;
        margin: auto;
        padding: 3%;
-     	width: 30%;
+     	width: 20%;
        order: 5;
        flex-grow: 1;
      	}
+
+  .cl6{
+    text-align: center;
+       margin: auto;
+       padding: 3%;
+      width: 20%;
+       order: 1;
+       flex-grow: 1;
+      }
   .cl5 img{
   width: 100%;
 
