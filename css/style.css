@@ -1,13 +1,12 @@
-.container{
-  background-color: black;
 
-}
 .container{
   background-attachment:scroll;
   background-image:url(../img/tec.jpg);
   background-size:contain;
   background-repeat:  no-repeat;
 background-position: center;
+  background-color: black;
+
 }
 p::selection {
      color: #983c3c;
@@ -25,13 +24,14 @@ p::selection {
    }
 
     h1, h2 {
-          color: gray;
+          color: black;
       }
 
 #title{
   color: white;
   background-color: gray;
   border-radius: 5px;
+  text-align: center;
 }
 
 
