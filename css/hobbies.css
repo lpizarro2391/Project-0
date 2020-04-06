@@ -20,13 +20,7 @@ div {
         color: green;
     }
 }
-%small-uppercase{
-  color: lightslategrey;
-  font-size: 10px;
-  letter-spacing: 0.1em;
-  line-height: 12px;
-  text-transform: uppercase;
-}
+
 
 @media (min-width: 500px){
 .wrapper {
@@ -197,6 +191,8 @@ div {
        margin: auto;
        padding: 3%;
      	width: 100%;
+      order: 4;
+      flex-grow: 1;
      	}
 
   .cl1 img{
@@ -247,7 +243,14 @@ div {
      	width: 100%;
 
      	}
-  .cl5 img{
+  .cl6{
+    text-align: center;
+       margin: auto;
+       padding: 3%;
+      width: 100%;
+
+      }
+  .cl6 img{
   width: 80%;
   align-items: center;
   }
