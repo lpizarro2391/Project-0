@@ -1,0 +1,20 @@
+{
+  "name": "project-0",
+  "version": "1.0.0",
+  "description": "Web Programming with Python and JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpizarro2391/Project-0.git"
+  },
+  "author": "lpizarro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lpizarro2391/Project-0/issues"
+  },
+  "homepage": "https://github.com/lpizarro2391/Project-0#readme"
+}
